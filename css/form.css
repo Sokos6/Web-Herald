@@ -3,3 +3,16 @@ input {
     background-repeat: no-repeat;
     padding-left: 15px;
 }
+form {
+    ...
+    background: no-repeat bottom center;
+    rgba(0, 0, 0, 0.2);
+    box-shadow:
+    inset 1px 1px 84px rgba(0, 0, 0, 0.24),
+    inset -1px -1px 84px rgba(0, 0, 0, 0.24);
+}
+
+input[type=submit] {
+    border-radius: 10%;
+    background-clip: padding-box;
+}
